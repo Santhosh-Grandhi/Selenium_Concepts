@@ -2,47 +2,27 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-06T22:02:28 IST" name="Default suite" finished-at="2025-05-06T22:02:28 IST" duration-ms="162">
+  <suite started-at="2025-05-07T20:09:52 IST" name="Default suite" finished-at="2025-05-07T20:09:52 IST" duration-ms="133">
     <groups>
     </groups>
-    <test started-at="2025-05-06T22:02:28 IST" name="Default test" finished-at="2025-05-06T22:02:28 IST" duration-ms="162">
+    <test started-at="2025-05-07T20:09:52 IST" name="Default test" finished-at="2025-05-07T20:09:52 IST" duration-ms="133">
       <class name="SanthoshFramework.Practice.HashMapConcept">
-        <test-method signature="ActualSet(java.lang.Object,java.lang.Object,java.lang.Object)[pri:0, instance:SanthoshFramework.Practice.HashMapConcept@38afe297]" started-at="2025-05-06T22:02:28 IST" name="ActualSet" data-provider="DataSet" finished-at="2025-05-06T22:02:28 IST" duration-ms="19" status="PASS">
+        <test-method signature="ActualSet(java.util.HashMap)[pri:0, instance:SanthoshFramework.Practice.HashMapConcept@2df3b89c]" started-at="2025-05-07T20:09:52 IST" name="ActualSet" data-provider="getData" finished-at="2025-05-07T20:09:52 IST" duration-ms="18" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Santhosh]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[santhoshgrandhi9@gmail.com]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[8332977899]]>
+                <![CDATA[{phone=8332977899, email=santhoshgrandhi9@gmail.com, Name=Santhosh}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ActualSet -->
-        <test-method signature="ActualSet(java.lang.Object,java.lang.Object,java.lang.Object)[pri:0, instance:SanthoshFramework.Practice.HashMapConcept@38afe297]" started-at="2025-05-06T22:02:28 IST" name="ActualSet" data-provider="DataSet" finished-at="2025-05-06T22:02:28 IST" duration-ms="4" status="PASS">
+        <test-method signature="ActualSet(java.util.HashMap)[pri:0, instance:SanthoshFramework.Practice.HashMapConcept@2df3b89c]" started-at="2025-05-07T20:09:52 IST" name="ActualSet" data-provider="getData" finished-at="2025-05-07T20:09:52 IST" duration-ms="3" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Kranthi]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[santhoshindia999@gmail.com]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[8919224413]]>
+                <![CDATA[{phone=8919224413, email=santhoshindia999@gmail.com, Name=Kranthi}]]>
               </value>
             </param>
           </params>
