@@ -1,13 +1,17 @@
 package SanthoshFramework.Practice;
 
+import java.io.IOException;
 import java.util.HashMap;
+import java.util.List;
 
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
+import SanthoshFramework.Data.jsonDataClass;
+
 public class HashMapConcept {
 	
-	@Test(dataProvider="getData")
+	@Test(dataProvider="getDataFromJson")
 	public void ActualSet(HashMap<Object,Object> input)
 	{
 		System.out.println(input.get("Name")+" "+input.get("email")+" "+input.get("phone"));
@@ -39,6 +43,15 @@ public class HashMapConcept {
 		
 		return new Object[][] {{map},{map1}};
 		
+	}
+	
+//  Passing data from Json
+	@DataProvider
+	public Object[][] getDataFromJson() throws IOException
+	{
+		jsonDataClass data = new jsonDataClass();
+		List<HashMap<Object, Object>> jsonData = data.getjsonData();
+		return new Object[][] {{jsonData.get(0)},{jsonData.get(1)}};
 	}
 	
 	

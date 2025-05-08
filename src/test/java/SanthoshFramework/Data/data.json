@@ -1,13 +1,13 @@
 [
 	{
-		"email" : "testjson@gmail.com"
-		"name" : "Test1"
+		"email" : "testjson@gmail.com",
+		"name" : "Test1",
 		"id" : "123456789"
-	}
+	},
 	
 	{
-			"email" : "testjson2@gmail.com"
-			"name" : "Test2"
+			"email" : "testjson2@gmail.com",
+			"name" : "Test2",
 			"id" : "987654321"
 	}
 ]
