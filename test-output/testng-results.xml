@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-08T22:06:39 IST" name="Default suite" finished-at="2025-05-08T22:06:40 IST" duration-ms="340">
+  <suite started-at="2025-05-09T21:05:27 IST" name="Default suite" finished-at="2025-05-09T21:05:27 IST" duration-ms="284">
     <groups>
     </groups>
-    <test started-at="2025-05-08T22:06:39 IST" name="Default test" finished-at="2025-05-08T22:06:40 IST" duration-ms="340">
+    <test started-at="2025-05-09T21:05:27 IST" name="Default test" finished-at="2025-05-09T21:05:27 IST" duration-ms="284">
       <class name="SanthoshFramework.Practice.HashMapConcept">
-        <test-method signature="ActualSet(java.util.HashMap)[pri:0, instance:SanthoshFramework.Practice.HashMapConcept@70325e14]" started-at="2025-05-08T22:06:40 IST" name="ActualSet" data-provider="getDataFromJson" finished-at="2025-05-08T22:06:40 IST" duration-ms="10" status="PASS">
+        <test-method signature="ActualSet(java.util.HashMap)[pri:0, instance:SanthoshFramework.Practice.HashMapConcept@70325e14]" started-at="2025-05-09T21:05:27 IST" name="ActualSet" data-provider="getDataFromJson" finished-at="2025-05-09T21:05:27 IST" duration-ms="9" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ActualSet -->
-        <test-method signature="ActualSet(java.util.HashMap)[pri:0, instance:SanthoshFramework.Practice.HashMapConcept@70325e14]" started-at="2025-05-08T22:06:40 IST" name="ActualSet" data-provider="getDataFromJson" finished-at="2025-05-08T22:06:40 IST" duration-ms="1" status="PASS">
+        <test-method signature="ActualSet(java.util.HashMap)[pri:0, instance:SanthoshFramework.Practice.HashMapConcept@70325e14]" started-at="2025-05-09T21:05:27 IST" name="ActualSet" data-provider="getDataFromJson" finished-at="2025-05-09T21:05:27 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>

@@ -51,7 +51,13 @@ public class HashMapConcept {
 	{
 		jsonDataClass data = new jsonDataClass();
 		List<HashMap<Object, Object>> jsonData = data.getjsonData();
-		return new Object[][] {{jsonData.get(0)},{jsonData.get(1)}};
+		//return new Object[][] {{jsonData.get(0)},{jsonData.get(1)}};
+		Object[][] result = new Object[jsonData.size()][1];
+		// create an array with jsonData.size() rows and 1 column as we have one set of data for every run {{set1},{set2}}
+		for (int i = 0; i < jsonData.size(); i++) {
+		    result[i][0] = jsonData.get(i); // each element is a HashMap
+		}
+		return result;
 	}
 	
 	
