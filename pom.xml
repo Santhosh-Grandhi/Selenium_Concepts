@@ -51,6 +51,16 @@
   		<artifactId>SanthoshFrameworkEcom</artifactId>
   		<version>0.0.1-SNAPSHOT</version>
   	</dependency>
+  	<dependency>
+  		<groupId>SanthoshFramework</groupId>
+  		<artifactId>GreenCartFramework</artifactId>
+  		<version>0.0.1-SNAPSHOT</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>rahulshettyacademy</groupId>
+  		<artifactId>SeleniumFrameworkDesign</artifactId>
+  		<version>0.0.1-SNAPSHOT</version>
+  	</dependency>
   </dependencies>
 
   <build>
